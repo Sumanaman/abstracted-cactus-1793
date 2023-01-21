@@ -147,7 +147,7 @@ return loading ? (
       
 {/* sticky Contact Us */}
 
-      {/* <div style={{
+      <div style={{
         width:"95%",
         margin:"auto",
         display:"flex",
@@ -173,13 +173,131 @@ return loading ? (
         }} src="https://th.bing.com/th/id/OIP.75ZtLvJCC893G47VjE4zxAHaHa?w=215&h=215&c=7&r=0&o=5&pid=1.7" alt="Error"/>
         <span >Contact Us</span>
       </div>
-      </div> */}
-     <div style={{
-      border:"2px solid green"
-     }}>3 option   </div>
       </div>
+     <div style={{
+      width:"96%",
+      height:"auto",
+      background:"#f3f3f3",
+      margin:"auto",
+      padding:"10px",
+      cursor:"pointer"
+     }}>
+      <p style={{
+        width:"20%",
+        color:"#444",
+        fontSize:"2rem"
+      }}>Welcome Back</p>
+      <div style={{
+        width:"100%",
+        height:"70%",
+        display:"grid",
+        gridTemplateColumns:"repeat(3,1fr)",
+        gap:"10px"
+      }}>
+       <div style={{
+        padding:"5px 10px",
+        background:"white",
+        boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px",
+       }}>
+         <p style={{
+           color:"#444",
+          width:"50%",
+          fontSize:"2rem",
+          textAlign:"left"
+        }}>Best Seller</p>
+        <hr />
+        <div style={{
+          width:"100%",
+          display:"flex",
+          justifyContent:"space-between",
+        }}>
+            <img style={{
+              width:"30%"
+            }} src=" https://i.dell.com/sites/csimages/UberHomePage_Imagery/all/xpss.png" alt="Error" />
+            <p style={{
+              width:"100%",
+              height:"2rem",
+              textAlign:"left",
+              fontSize:"1.3rem",
+            }}>Get our best laptops for less .</p>
+          </div>
+          <p style={{
+            color:"#0063c8",
+            fontSize:"1.3rem",
+            textAlign:"left",
+          }}>Shop Now</p>
+       </div>
+       { <div style={{
+        padding:"5px 10px",
+        background:"white",
+        boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px",
+       }}>
+         <p style={{
+           color:"#444",
+          width:"100%",
+          fontSize:"2rem",
+          textAlign:"left"
+        }}>Laptop Buying Guide</p>
+        <hr />
+            <p style={{
+              width:"100%",
+              height:"2rem",
+              textAlign:"left",
+              fontSize:"1.2rem"
+            }}>Learn more about the types of Laptops & select the best model for your use .</p>
+         <p style={{
+            color:"#0063c8",
+            fontSize:"1.3rem",
+            textAlign:"left",
+            marginTop:"3.5rem",
+            width:"50%",
+          }}>Learn More</p>
+       </div> }
+       {<div style={{
+        padding:"5px 10px",
+        background:"white",
+        boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px",
+       }}>
+         <p style={{
+           color:"#444",
+          width:"100%",
+          fontSize:"2rem",
+          textAlign:"left"
+        }}>Access My Account</p>
+        <hr />
+        <div style={{
+          display:"flex",
+          justifyContent:"space-between"
+        }}>
+           <p style={{
+              width:"100%",
+              height:"2rem",
+              textAlign:"left",
+              fontSize:"1.2rem"
+            }}>Sign in to your account to track & view your orders .</p>
+          </div>
+          <p style={{
+            color:"#0063c8",
+            fontSize:"1.3rem",
+            textAlign:"left",
+          }}>Sign In</p>
+       </div> }
+      </div>
+     </div>
+     
+     <div style={{
+        border:"2px solid green"
+         }}>3 option 
+     </div>
+</div>
     )
 
 }
 
 export default Home;
+
+
+
+
+
+
