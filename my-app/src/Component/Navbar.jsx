@@ -26,12 +26,13 @@ function Navbar  ()
     <div style={{
 
         width:"95%",
-        height:"200px",
+        height:"auto",
         display:"flex",
         alignItems:"center",
         justifyContent:"space-around",
         padding:"10px",
         borderRadius:"5px",
+        marginTop:"1.5rem",
         margin:"auto",
         boxShadow: "rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px",
       }}
@@ -61,8 +62,8 @@ style={
   <NavLink
   style={({isActive})=>{
     return isActive
-    ? {textDecoration:"none",color:"teal"}
-    : {textDecoration:"none",color:"black"};
+    ? {textDecoration:"none",color:"aqua",fontWeight:"bold",fontSize:"1.4rem"}
+    : {textDecoration:"none",color:"blue",fontWeight:"bold",fontSize:"1.4rem"};
   }}
   key={link.path}
   to={link.path}

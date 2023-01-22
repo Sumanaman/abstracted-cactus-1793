@@ -1,24 +1,16 @@
 import React from 'react'
 
 
-const hello =(e)=>
-{
-  console.log("Ganesh"+"onclick"+e)
-}
-
 
 export const Footer = () => {
   return (
     <div style={
       {
         width:"96%",
+        height:"auto",
         margin:"auto",
-        // marginTop:"50px",
-        // border:"2px solid green",
-        backgroundColor:"#f3f3f3",// display:"grid",
-        // gridTemplateColumns:"repeat(4,1fr)",
-        // gridTemplateRows:"repeat(2,1fr)",
-        // gap:"2rem",
+        marginTop:"180rem",
+        backgroundColor:"#f3f3f3",
       }
     }>
       <div id='row1' style={
