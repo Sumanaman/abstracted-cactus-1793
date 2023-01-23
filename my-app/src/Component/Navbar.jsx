@@ -1,11 +1,12 @@
 import  { NavLink } from "react-router-dom";
 
+let c=JSON.parse(localStorage.getItem("c")) || 0;
 const links = [
   {path:"/",title:"Home"},
   {path:"/signin",title:"Signin"},
   {path:"/contact",title:"Contact"},
   {path:"/language",title:"Language"},
-  {path:"/cart",title:"Cart"}
+  {path:"/cart",title:`Cart : ${c}`}
 ];
 
 

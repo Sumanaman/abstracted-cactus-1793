@@ -1,5 +1,12 @@
 
 
+const handlelogin=()=>
+{
+    alert ("Login Successful")
+    window.location.href="/"
+}
+
+
 const SignIn = () => {
      return (
         <div style={{width:"100%",
@@ -58,7 +65,7 @@ const SignIn = () => {
                     backgroundColor:"#0672cb",
                     border:"none",
                     color:"#FFFFFF"
-                }} type="submit" placeholder="Sign In"/>
+                }} type="submit" onClick={handlelogin} placeholder="Sign In"/>
                 <p style={{color:"gray",
             marginTop:"-5px",
             marginBottom:"-5px",}}>or</p>

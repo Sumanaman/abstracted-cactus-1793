@@ -10,7 +10,8 @@ export const Footer = () => {
         height:"auto",
         margin:"auto",
         marginTop:"180rem",
-        backgroundColor:"#f3f3f3",
+        backgroundColor:"#97fbfb",
+        borderRadius:"5px"
       }
     }>
       <div id='row1' style={

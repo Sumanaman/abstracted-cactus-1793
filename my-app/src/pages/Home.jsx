@@ -26,6 +26,20 @@ const getData =()=>
 // 	console.error(error);
 // });
 
+const handle=()=>
+{
+  alert("First Login ")
+}
+const handlereg=()=>
+{
+  alert("First Register Yourself ")
+}
+const added=(a)=>
+{
+  console.log(a);
+  localStorage.setItem("c",JSON.stringify(a))
+  alert("Item Added Successfully");
+}
 
 const Home = () => 
 {
@@ -117,7 +131,7 @@ return loading ? (
           display:"flex",
           justifyContent:"space-between"
       }}>
-          <button style={{
+          <button  style={{
             padding:"10px",
             fontSize:"1rem",
             backgroundColor:"#0063c8",
@@ -278,7 +292,7 @@ return loading ? (
               fontSize:"1.2rem"
             }}>Sign in to your account to track & view your orders .</p>
           </div>
-          <p style={{
+          <p onClick={handlereg} style={{
             color:"#0063c8",
             fontSize:"1.3rem",
             textAlign:"left",
@@ -419,7 +433,7 @@ return loading ? (
         margin:"auto",
         alignItems:"center"
          }}>
-              <p style={{
+              <p onClick={handle} style={{
         color:"#0063c8",
         fontSize:"1.3rem",
         cursor:"pointer"
@@ -948,11 +962,17 @@ return loading ? (
         margin:"auto",
         alignItems:"center"
          }}>
-              <p style={{
+              <p onClick={()=>
+              {
+                let c=0;
+                c++;
+                added(c);
+
+              }} style={{
         color:"#0063c8",
         fontSize:"1.3rem",
         cursor:"pointer"
-         }}>Shop Now</p>
+         }}>Buy Now</p>
               <span style={{
                 color:"grey",
          }}>|</span>
